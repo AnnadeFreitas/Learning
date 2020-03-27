@@ -1,0 +1,50 @@
+ body{
+                background-image: url(fundo.jpg);
+                background-attachment: fixed;
+                background-size:100%;
+                background-repeat: no-repeat;
+                background-color: #000000;
+            }
+
+ .menu ul li{
+                margin: 0;
+                background-color: #333333;
+                color: white;
+                float: left;
+                width: 200px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                display: inline-block;
+                font-size: 15;
+                font-family: 'Arial';
+            }
+            .menu ul li:hover{
+                background-color: #000000;
+                position: relative;
+            }
+            .menu ul{
+                padding: 0;
+            }
+            .menu ul ul li{
+                background-color: #000000;
+            }
+            .menu ul ul{
+                display: none;
+                background-color: #000000;
+            }
+            .menu ul li:hover > ul{
+                display: block;
+            }
+            .menu ul ul ul{
+                margin-left: 149px;
+                top: 0px;
+                position: absolute;
+                font-size: 17;
+            }
+            .menu ul ul li:hover{
+                background-color: #668cff;
+            }
+            .menu ul ul ul li:hover{
+                background-color: #668cff;
+            }
